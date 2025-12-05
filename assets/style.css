@@ -1,0 +1,41 @@
+/*GENERAL*/
+
+body {
+    background-color: orange;
+}
+
+main {
+    background-color: green;
+}
+
+/*HEADER*/
+
+header {
+    background-color: yellow;
+}
+
+nav {
+    background-color: blue;
+}
+
+/*SECTION 1*/
+
+.container1 {
+    background-color: yellow;
+}
+
+.paragraphe1 {
+    background-color: lightblue;
+}
+
+.paragraphe2 {
+    background-color: lightblue;
+}
+
+/*SECTION 2*/
+
+.container2 {
+    background-color: yellow;
+}
+
+/*FOOTER/
