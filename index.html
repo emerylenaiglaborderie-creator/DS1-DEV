@@ -25,10 +25,31 @@
         </section>
         <section class="container2" id="section2">
             <img src="http://imageipsum.com/1200x675" alt="image-random">
+            <form id="registrationForm">
+            <div class="input-group">
+                <input type="text" id="surname" required placeholder=" ">
+                <label for="surname">Prénom</label>
+                <span class="error" id="surnameError"></span>
+            </div>
+
+            <div class="input-group">
+                <input type="name" id="name" required placeholder=" ">
+                <label for="name">Nom</label>
+                <span class="error" id="nameError"></span>
+            </div>
+
+            <div class="input-group">
+                <input type="email" id="email" required placeholder=" ">
+                <label for="email">Email</label>
+                <span class="error" id="emailError"></span>
+            </div>
+
+            <button type="submit">Validez</button>
+        </form>
         </section>
     </main>
     <footer>
-
+        <p>Page web faites par</p>
     </footer>
 </body>
 </html>
