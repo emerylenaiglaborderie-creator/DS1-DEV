@@ -19,7 +19,6 @@ header {
 
 .navbar {
     background-color: blue;
-    overflow: hidden;
     display:flex;
     justify-content: center;
     list-style-type: none;
@@ -42,14 +41,24 @@ header {
 
 .container1 {
     background-color: yellow;
+    display:flex;
+    flex-direction: row;
+}
+
+.container1 img {
+    width:auto;
+    height: 250px;
+    margin: 50px;
 }
 
 .paragraphe1 {
     background-color: lightblue;
+    margin: 50px;
 }
 
 .paragraphe2 {
     background-color: lightblue;
+    margin: 50px;
 }
 
 /*SECTION 2*/
